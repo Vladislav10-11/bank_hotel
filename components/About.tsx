@@ -6,7 +6,7 @@ import RoomsButton from "./RoomsButton";
 
 const About: FC = () => {
   return (
-    <section className="bg-primaryColor py-16">
+    <section className="bg-primaryColor py-72">
       <div className="container mx-auto flex">
         <div className="flex flex-row items-end justify-start">
           <Image src={about} width={600} height={850} alt="" />

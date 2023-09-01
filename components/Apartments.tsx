@@ -21,7 +21,7 @@ const Apartments: FC = () => {
         </div>
 
         <div className="py-56 flex flex-row gap-24">
-          <div className="flex flex-col justify-between items-start w-1/3">
+          <div className="flex flex-col justify-around items-start w-1/3">
             <Image src={imgsmallapartment} width={286} height={429} alt="" />
 
             <Image src={arrowforward} height={170} width={170} alt="" />
@@ -47,12 +47,12 @@ const Apartments: FC = () => {
               </div>
             </div>
           </div>
-          <div className=" relative overflow-hidden">
+          <div className=" relative overflow-hidden w-[760px] h-[1000px]">
             <Image
               src={bed}
               width={1519}
               height={1014}
-              className="w-full object-none h-full "
+              className="w-full object-none object-center h-full "
               alt=""
             />
             <CircleButton

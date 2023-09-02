@@ -4,6 +4,7 @@ import michael from "@/images/michael.jpeg";
 import barman from "@/images/barman.jpeg";
 import iceimg from "@/images/iceimg.jpeg";
 import arrowforward from "@/icons/arrowforward.svg";
+import FacilitiesCard from "./FacilitiesCard";
 const Facilities: FC = () => {
   return (
     <section className="bg-white">
@@ -56,6 +57,20 @@ const Facilities: FC = () => {
               alt=""
             />
           </div>
+        </div>
+        <div className="flex flex-col gap-16">
+          <FacilitiesCard
+            image={"/images/conferencehallimg.jpeg"}
+            number={"02"}
+            title={"conference hall"}
+            link={"/"}
+          />
+          <FacilitiesCard
+            image={"/images/winebarimg.jpeg"}
+            number={"03"}
+            title={"Wine bar “reserve”"}
+            link={"/"}
+          />
         </div>
       </div>
     </section>

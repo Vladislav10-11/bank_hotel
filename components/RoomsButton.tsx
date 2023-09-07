@@ -3,9 +3,13 @@ import Link from "next/link";
 import { FC } from "react";
 import rooms from "@/icons/buttonrooms.svg";
 
-const RoomsButton: FC = () => {
+interface IRoomsButton {
+  className?: string;
+}
+
+const RoomsButton: FC<IRoomsButton> = ({ className }) => {
   return (
-    <Link href="#">
+    <Link href="#" className={`${className}`}>
       <Image className="w-full" src={rooms} alt="" />
     </Link>
   );

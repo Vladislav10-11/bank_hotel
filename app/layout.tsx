@@ -3,6 +3,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
+import Footer from "@/components/Footer";
+import GetIn from "@/components/GetIn";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,6 +33,8 @@ export default function RootLayout({
       <body className={`${miracle.variable} ${inter.variable}`}>
         <Header />
         {children}
+        <GetIn />
+        <Footer />
       </body>
     </html>
   );

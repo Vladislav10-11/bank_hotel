@@ -6,8 +6,8 @@ import CircleButton from "../CircleButton";
 const Hero: FC = () => {
   return (
     <section className="">
-      <div className="relative w-full">
-        <Image src="/images/bed.jpeg" width={1920} height={900} alt="" />
+      <div className="relative w-full h-[900px]">
+        <Image src="/images/bed.jpeg" fill alt="" />
         <h1 className="text-9xl absolute top-10 left-10 text-secondaryColor font-serif w-1/4">
           Superior twin
         </h1>

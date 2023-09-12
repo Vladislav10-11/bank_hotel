@@ -1,5 +1,6 @@
 import Hero from "@/components/room/Hero";
 import Standart from "@/components/room/Standart";
+import Twin from "@/components/room/Twin";
 import { FC } from "react";
 
 const RoomPage: FC = () => {
@@ -7,6 +8,7 @@ const RoomPage: FC = () => {
     <div>
       <Hero />
       <Standart />
+      <Twin />
     </div>
   );
 };
